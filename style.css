@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200;300;400;500;600;700;800;900&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 55px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+
+}
+
+.container .left-side
+{ 
+ position: relative;
+ background: #272727;
+ padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225,255,255,0.2);
+}
+.profileText .imgbx
+{
+    position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+border: 5px solid #eeb20d;
+
+
+}
+.profileText .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactinfo
+{
+    padding-top: 40px;
+}
+
+.title
+{
+    color: #272727;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo ul
+{
+    position: relative;
+}
+
+.contactinfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #eeb20d;
+}
+.contactinfo ul li span 
+{
+color: #fff;
+font-weight: 300;
+}
+.contactinfo.education li
+{
+margin-bottom: 35px;
+
+}
+
+.contactinfo.education h5
+{
+    color: #eeb20d;
+    font-weight: 500;
+}
+
+.contactinfo.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.contactinfo.education h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactinfo.language .percent
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: #081921;
+display: block;
+margin-top: 5px;
+}
+
+.contactinfo.language .percent div
+{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background: #03a9f4;
+
+}
+
+
+.container .right-side
+{ 
+ position:relative;
+ background: #fff;
+ padding: 40px;
+ 
+}
+
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+
+h2
+{
+    color: #272727;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    color: #333;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+.iconx
+{ color: 
+
+
+}
+.about .box .year-comapny
+{
+min-width: 150px;
+}
+.about .box .year-comapny h5
+{
+text-transform: uppercase;
+color: #272727;
+font-weight: 600;
+}
+h4
+{
+    text-transform: uppercase;
+    color: #272727;
+    font-size: 16px;
+}
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #272727;
+    font-weight: 600;
+
+}
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+
+}
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #272727;
+
+}
+.interest ul
+{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+
+.interest ul li
+{
+list-style: none;
+color: rgb(255, 255, 255);
+font-weight: 600;
+margin: 5px 0;
+}
+.edudiv
+{
+    position: relative;
+    width: 55%;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.edudivc 
+{
+    position: relative;
+    width: 48%;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.edudivcc
+{
+    position: relative;
+    width: 55%;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ref 
+{ position: relative;
+    font-weight: 500;
+    color: #fff;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+.refs
+{   position: relative;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.iconss
+{
+color: #eeb20d;
+align-items: left;
+size: 15px;
+
+}
+.iconx
+{ 
+
+}
+.divider
+{
+    width: 230px;
+    height: 5px;
+    background-color: #eeb20d;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.hs 
+{
+   position: relative;
+   text-align: left;
+margin-bottom: 30px;
+}
+.title4
+{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.edudiv1
+{
+    position: relative;
+    width: 24%;
+
+    text-align: left;
+    background: #272727;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 24px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.title5
+{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.edudiv2
+{
+    position: relative;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: larger;
+    background: #272727;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 27px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.title6
+{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.edudiv3
+{
+    position: relative;
+    width: 32%;
+    text-transform: uppercase;
+    font-size: larger;
+    background: #272727;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 27px;
+    text-align: left;
+    margin-bottom: 100px;
+}
